@@ -6,10 +6,10 @@ print("What would you like to have today, Sir/Madam?")
 menu = {
     "coffee": 10,
     "tea": 7,
-    "rice-Chicken": 100,
-    "fried Rice": 150,
+    "rice-chicken": 100,
+    "fried rice": 150,
     "naan": 40,
-    "butter Chicken": 150,
+    "butter chicken": 150,
     "bread": 20
 }
 # or you can use long method to convert the dictionary to list of tuples
@@ -35,7 +35,7 @@ while True:
         print("We are extremly sorry sir/mam !!!you order is not available at this moment ")
 
     nextorder = input("Do you want enethink else sir/mam :),\n(Enter YES or NO)").strip().lower()
-    if nextorder != "YES":
+    if nextorder != "yes":
         break
 print(f"thank you for your oder ! \n Your total bill is {total_bill} INR")
 print("Have a Good Day , Sir/Madam !!\n Please visit again ! ")
