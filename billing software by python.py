@@ -34,7 +34,7 @@ while True:
     else:
         print("We are extremly sorry sir/mam !!!you order is not available at this moment ")
 
-    nextorder = input("Do you want enethink else sir/mam :),\n(Enter YES or NO)").strip().lower()
+    nextorder = input("Do you want anythink else sir/mam :),\n(Enter YES or NO)").strip().lower()
     if nextorder != "yes":
         break
 print(f"thank you for your oder ! \n Your total bill is {total_bill} INR")
